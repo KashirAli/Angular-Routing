@@ -22,7 +22,7 @@ const appRoute:Routes = [
     path:'users',component:UsersComponent
   },
   {
-    path:'user/:id',component:UserComponent
+    path:'users/:id/:name',component:UserComponent
   },
   {
     path:'servers',component:ServersComponent
